@@ -295,3 +295,18 @@ body {
         display: none;
     }
 }
+
+
+
+
+.project-card-link {
+  display: block;          /* gjør at lenka omfavner hele kortet */
+  text-decoration: none;   /* ingen understrek */
+  color: inherit;          /* behold tekstfarger */
+}
+
+.project-card-link:focus .project-card,
+.project-card-link:hover .project-card {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0,0,0,0.1);
+}
